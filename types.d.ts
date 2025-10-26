@@ -12,6 +12,6 @@ declare module 'motia' {
   }
 
   interface Handlers {
-    
+    'SubmitChannel': ApiRouteHandler<Record<string, unknown>, unknown, never>
   }
 }
